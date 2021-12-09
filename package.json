@@ -1,12 +1,15 @@
 {
-  "name": "react-native-image-viewing",
+  "name": "@staltz/react-native-image-viewing",
   "version": "0.2.1",
   "description": "React Native modal component for viewing images as a sliding gallery",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jobtoday/react-native-image-viewing.git"
+    "url": "git+https://github.com/staltz/react-native-image-viewing.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "react",
@@ -30,11 +33,17 @@
     "package.json"
   ],
   "author": "Anton Kalinin",
+  "contributors": [
+    {
+      "name": "Andre 'Staltz' Medeiros",
+      "email": "contact@staltz.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jobtoday/react-native-image-viewing/issues"
+    "url": "https://github.com/staltz/react-native-image-viewing/issues"
   },
-  "homepage": "https://github.com/jobtoday/react-native-image-viewing#readme",
+  "homepage": "https://github.com/staltz/react-native-image-viewing#readme",
   "devDependencies": {
     "@babel/runtime": "7.7.4",
     "@types/react": "16.9.13",
